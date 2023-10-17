@@ -25,7 +25,7 @@ section {
   padding: 2rem;
 }
 
-h1, h2, h3, p, ul, li, ol {
+h1, h2, h3, p, ul, li, ol, dt, dt, dd {
   text-align: center;
   color: #111;
 }
