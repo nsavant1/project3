@@ -48,3 +48,7 @@ img, iframe {
   display: block;
   margin: 0 auto;
 }
+
+.fragrenceNote {
+  font-weight: bold;
+}
