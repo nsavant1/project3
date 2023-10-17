@@ -27,11 +27,13 @@ section {
 h1,
 h2,
 h3 {
+  text-align: center;
   color: #111;
 }
 
 a {
   color: #333;
+  text-decoration: underline;
 }
 
 ul {
