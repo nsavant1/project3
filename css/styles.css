@@ -1,1 +1,46 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+nav {
+  padding: 10px;
+  background-color: #222;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  display: inline-block;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+section {
+  padding: 20px;
+}
+
+.projects a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.skills {
+  text-align: justify;
+}
 
