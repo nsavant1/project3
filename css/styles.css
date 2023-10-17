@@ -1,41 +1,29 @@
 body {
+  background: linear-gradient(to right, orange, red);
   font-family: sans-serif;
-  margin: 0;
-  background-color: #f5f5f5;
-  color: #333;
 }
 
-nav {
-  padding: 10px;
-  background-color: #222;
-  color: white;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav li {
-  display: inline-block;
-}
-
-h1, h2, h3 {
-  text-align: center;
-  color: #333;
-}
-
+nav,
 section {
-  padding: 20px;
+  background-color: white;
+  padding: 1rem;
 }
 
-.projects a {
-  color: #007bff;
-  text-decoration: underline;
+h1,
+h2,
+h3 {
+  color: #111;
 }
 
-.skills {
-  text-align: justify;
+a {
+  color: #333;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
