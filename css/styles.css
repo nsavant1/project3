@@ -44,6 +44,10 @@ li {
   margin-bottom: 0.5rem;
 }
 
+ol li {
+  text-align: center;
+}
+
 img, iframe {
   display: block;
   margin: 0 auto;
