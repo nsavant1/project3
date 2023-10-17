@@ -3,7 +3,22 @@ body {
   font-family: sans-serif;
 }
 
-nav,
+nav {
+  padding: 10px;
+  background-color: #222;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  display: inline-block;
+}
+
 section {
   background-color: white;
   padding: 1rem;
