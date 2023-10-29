@@ -13,6 +13,7 @@ nav {
 
 nav a {
   text-align: center;
+  display: flex;
 }
 
 section {
