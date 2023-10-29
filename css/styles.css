@@ -10,6 +10,7 @@ nav {
   padding: 15px;
   text-align: center;
   margin: 0 auto;
+  display: flex;
 }
 
 nav a {
@@ -19,9 +20,10 @@ nav a {
 
 section {
   background-color: #F5F5DC;
-  padding: 20px;
-  max-width: 800px;
+  padding: 22px;
+  max-width: 950px;
   margin: 20px auto;
+  border-radius: 8px;
 }
 
 h1, h2, h3, p, ul, li, ol, dt, dt, dd {
