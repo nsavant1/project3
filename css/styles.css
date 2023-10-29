@@ -11,14 +11,8 @@ nav {
   text-align: center;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav li {
-  display: inline-block;
+nav a {
+  text-align: center;
 }
 
 section {
