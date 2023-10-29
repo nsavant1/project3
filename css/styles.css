@@ -9,6 +9,7 @@ nav {
   font-family: monospace;
   padding: 15px;
   text-align: center;
+  margin: 0 auto;
 }
 
 nav a {
