@@ -11,15 +11,12 @@ nav {
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
+  list-style: none;
 }
 
 nav li {
-  display: inline-block;
+  display: inline;
+  margin: 0 20px;
 }
 
 section {
