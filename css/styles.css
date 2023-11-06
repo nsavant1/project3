@@ -8,14 +8,12 @@ nav {
   color: #333;
   font-family: monospace;
   padding: 15px;
+}
+
+nav ul, li {
   text-align: center;
   margin: 0 auto;
   display: flex;
-}
-
-nav a {
-  padding: 14px 20px;
-  text-align: center;
 }
 
 section {
