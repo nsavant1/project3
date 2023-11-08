@@ -13,12 +13,11 @@ nav {
 
 nav ul {
   list-style: none;
-  text-align: center;
 }
 
 nav li {
   display: inline;
-  text-align: center;
+  margin: 0 20px;
 }
 
 section {
