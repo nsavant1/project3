@@ -80,3 +80,7 @@ iframe {
 .fragrenceNote {
   font-weight: bold;
 }
+
+.sideBySide {
+  display: flex;
+}
