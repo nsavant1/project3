@@ -24,6 +24,10 @@ nav li {
   margin: 0 20px;
 }
 
+section:first-child {
+  margin-top: 50px; 
+}
+
 section {
   background-color: #F5F5DC;
   padding: 22px;
