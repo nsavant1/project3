@@ -84,3 +84,13 @@ iframe {
 .sideBySide {
   display: flex;
 }
+
+#map{
+  width: 80%;
+  height: 500px;
+  border-radius: 25px;
+  border-color: #FE5F55;
+  border-width: thick;
+  border-style: dotted;
+  margin: 20px;
+}
