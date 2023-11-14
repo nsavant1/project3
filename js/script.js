@@ -1,62 +1,39 @@
-function initMap(){
-var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 41.78955900248598, lng: -87.58266507470498},
-    zoom: 12
+var map;
+function initMap() {
+
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 44.254930, lng: -88.413980},
+    zoom: 17
   });
 
-var marker = new google.maps.Marker({
-    position: { lat: 41.78955900248598, lng: -87.58266507470498},
-    map: map,
+  var school = new google.maps.Marker({
+    position: { lat: 41.8730, lng: -87.6279},
+    map: map
   });
 
-var infowindow = new google.maps.InfoWindow({
-    content:"This is the first place in Chicago where I went birding."
+  var home = new google.maps.Marker({
+    position: { lat: 41.868690, lng: -87.625380 },
+    map: map
   });
-  infowindow.open(map, marker);
-  const icons = {
-      bird: {
-        icon: "images/crow.png",
-      },
-    }
 
-    const features = [
-        {
-          position: new google.maps.LatLng(41.78878745952479, -87.61109759602186),
-          type: "bird",
-        },
-        {
-          position: new google.maps.LatLng(41.75037782566944, -87.53993446095399),
-          type: "bird",
-        },
-        {
-          position: new google.maps.LatLng(41.849664985553325, -87.61087453654768),
-          type: "bird",
-        },
-        {
-          position: new google.maps.LatLng(41.859966022804684, -87.60860108071138),
-          type: "bird",
-        },
-        {
-          position: new google.maps.LatLng(41.76857563405572, -87.56149110852199),
-          type: "bird",
-        },
-        {
-          position: new google.maps.LatLng(41.7600531884138, -87.5450162604763),
-          type: "bird",
-        },
-        {
-          position: new google.maps.LatLng(41.7382405099498, -87.53006425677482),
-          type: "bird",
-        },
-    ];
+  var distPoints = [
+    { lat: 41.8730, lng: -87.6279 },
+    { lat: 41.87299780452928, lng: -87.62762881329594 },
+    { lat: 41.874529665029925, lng: -87.62765288743249 },
+    { lat: 41.87455580971936, lng: -87.6290349675567 },
+    { lat: 41.87470985506898, lng: -87.62902108075652 },
+  ];
 
-    for (let i = 0; i < features.length; i++) {
-      const marker = new google.maps.Marker({
-        position: features[i].position,
-        icon: icons[features[i].type].icon,
-        map: map,
-      });
-    }
+  var dist = new google.maps.Polyline({
+    path: distPoints,
+    geodesic: true,
+    strokeColor: "#FE5F55",
+    strokeOpacity: 1.0,
+    strokeWeight: 2,
+  });
+
+  dist.setMap(map);
+
 }
 
-google.maps.event.addDomListener(window, 'load', initMap);
+window.initMap = initMap;
