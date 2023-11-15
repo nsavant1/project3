@@ -93,4 +93,7 @@ iframe {
   border-width: thick;
   border-style: dotted;
   margin: 20px;
+  margin-top: 90px;
+  max-width: 100%;
 }
+
